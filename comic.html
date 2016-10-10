@@ -1,0 +1,390 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lock-On: Homes</title>
+<style media="screen" type="text/css">
+
+body {
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+p {
+margin-top: 0px;
+margin-bottom: 0px;
+font-family: 'TheHappyFaceSmile';
+color: #000000;
+}
+
+#container {
+	width: 100%;
+	background-color: #8dabdd;
+}
+
+
+.drop_menu {
+background:#62739f;
+padding:0;
+margin:0;
+list-style-type:none;
+height:50px;
+position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+.drop_menu > li { 
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.drop_menu > li a {
+padding:20px 0;
+display: block;
+color:#414141;
+text-decoration:none;
+font:12px arial, verdana, sans-serif;
+text-align: center;
+text-transform: uppercase;
+width: 100%;
+}
+
+/* Submenu */
+.drop_menu ul {
+position: relative;
+left:-9999px;
+top:-9999px;
+list-style-type:none;
+margin: 0;
+display: block;
+}
+
+
+.drop_menu li:hover { position:relative; background:#77eecc; }
+.drop_menu li:hover ul {
+left:0px;
+top:30px;
+background:#8bdafc;
+padding:0px;
+display: block;
+}
+
+.drop_menu li:hover ul li a {
+text-indent:15px;
+background-color:#8bdafc;
+position: relative;
+display: block;
+color: #fff;
+}
+
+.drop_menu li:hover ul li a:hover { background:#005555; }
+
+section {
+	width: 80%;
+	padding: 100px 10%;
+	margin: 0px;
+	float: left;
+
+}
+
+#home div {
+	width: 200px;
+	text-transform: uppercase;
+	border: 2px solid #fff;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+
+article {
+	line-height: 30px;
+}
+
+#ch2, #ch4, #ch6 {
+	background-color: #ccbbff;
+	color: #fff;
+
+}
+
+#ch1 article, #ch2 article, #ch3 article, #ch4 article, #ch5 article, #ch6 article {
+	border: 2px solid black;
+	text-align: left;
+	margin: 100px 10%;
+	padding: 50px 10%;
+}
+
+
+section h1 {
+	font-size: 60px;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	letter-spacing: 2px;
+	text-align: center;
+	padding-top: 10px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+footer {
+clear: both;
+width: 100%;
+padding: 20px 0;
+text-align: center;
+}
+
+/* form 1 */
+
+
+
+#form1{
+		
+margin:1em 0;
+		
+padding-top:10px;
+		
+background:url(../images/form1/form_top.gif) no-repeat 0 0;
+		}
+	
+
+#form1 fieldset{
+		
+margin:0;
+		
+padding:0;
+		
+border:none;	
+	
+float:left;
+		
+display:inline;
+		
+width:260px;
+	
+margin-left:25px;
+}
+		
+	
+
+#form1 legend{
+display:none;
+}
+	
+	
+#form1 p{
+margin:.5em 0;
+}	
+	
+
+#form1 label{
+display:block;
+}	
+	
+
+#form1 input, #form1 textarea{
+width:252px;
+		
+border:1px solid #ddd;
+background:#fff url(../images/form1/form_input.gif) repeat-x;
+		padding:3px;
+	
+}
+
+#form1 textarea{
+		
+height:125px;
+	
+overflow:auto;
+
+}
+					
+	
+#form1 p.submit{
+		
+clear:both;
+	
+background:url(../images/form1/form_bottom.gif) no-repeat 0 100%;
+	padding:0 25px 20px 25px;
+
+margin:0;
+	
+text-align:right;
+
+}	
+	
+
+#form1 button{
+	
+width:150px;
+
+height:37px;
+		
+line-height:37px;
+border:none;
+		
+background:url(../images/form1/form_button.gif) no-repeat 0 0;
+		color:#fff;
+		
+cursor:pointer;
+		
+text-align:center;
+	
+}	
+			
+
+
+/* // form 1 */
+
+</style>
+</head>
+
+<body>
+<div id="container">
+	<nav>
+	<div class="drop">
+<ul class="drop_menu">
+	<li><a href="draft.html#home" class="home"> Home </a></li>
+    <li><a href="draft.html#about" class="about"> About </a>
+	<ul>
+            <li><a href="about.html#child-rights" class="child-rights">Child Rights</a></li>
+            <li><a href="about.html#characters" class="characters">Characters</a></li>
+        </ul> </li>
+    <li>ADD LOGO HERE </li>
+    <li><a href="draft.html#comic" class="comic"> Comic </a>
+	<ul>
+            <li class="submenu"><a href="#ch1" class="ch1">Chapter One</a></li>
+            <li><a href="#ch2" class="ch2">Chapter Two</a></li>
+            <li><a href="#ch3" class="ch3">Chapter Three</a></li>
+	    <li><a href="#ch4" class="ch4">Chapter Four</a></li>
+	<li><a href="#ch5" class="ch5">Chapter Five</a></li>
+	<li><a href="#ch6" class="ch6">Chapter Six</a></li>
+        </ul> </li>
+    <li><a href="draft.html#contact" class="contact"> Contact </a></li>
+    </ul></div>
+    </nav>
+    
+    <section id="ch1">
+<h1> CHAPTER ONE </h1>
+    	<article><img src="comic/ch1page1.jpg" width="50%" height="50%"></p></article>
+</section>
+
+<section id="about">
+    	<h1> ABOUT </h1>
+        <article><p>A child has the right to:<br>
+・to be born and to be raised by parents<br>
+・be healthy and educated<br>
+・be protected against all form of abuse<br>
+・get protection from the government<br>
+・gain freedom and responsibility<br>
+<br>
+
+Responsibilities of the Child:<br>
+・Respect, obey, and love the family<br>
+・Get education and participate in social activities<br>
+・Observe Human Rights<br>
+・Serve and Love the Country<br>
+<br>
+
+The Parent and the Child<br>
+The relationship between the parent and the child altogether is the most important thing in the family. Because how a child acts outside their comfort zone will also reflect on the parent's personality. The child, especially in early ages in life, will try to imitate on what the parent is doing inside the home. The value of the parent will also influence the child since that was the way they were raised. The parents have to be careful on what they do and tell their kids, especially in the early stage, what is right and what is wrong as soon as possible.
+<br>
+
+The Parent<br>
+Parents are composed of two people: The Father and the Mother.<br>
+<br>
+
+Traditional Way:<br>
+The role of the Father is that he is the head of the family. He goes to work everyday in order to provide his family the basic needs: Food, Shelter, Water, and Clothing. He only spends his time with his family in the weekends.<br>
+
+The role of the Mother is that she always stays at home to take care of the house. She spends all the time cooking, cleaning, and raising the child. She always has time to be with her child when the child doesn't have school.<br>
+<br>
+
+New Modern Way:<br>
+Both the Father and the Mother work to provide the family with the basic needs: Food, Shelter, Water, and Clothing. So the parents have no choice but to hire a maid, or yaya, to raise the child. Sometimes their roles are interchangeable these days, the Father stays at home to raise the child and the Mother goes to work instead.<br>
+<br>
+
+The Child<br>
+A child is a person who is at the below age of 18 years old and below. They are fragile and easily get hurt. The child is completely dependent in life and seeks full guidance in adults, most particularly the parents. In the early stage of their lives, everything they will see in their surroundings is considered 'right'. They will imitate everything they see, copy on what is seen in television and magazine covers. Because the child doesn't know what is right and wrong yet, so the job of the parents have a major role in the child's development.<br>
+<br>
+
+About Child Abuse and Child Neglect<br>
+The only groups of people who are can do these are adults. Since the child is fragile and has only little knowledge about the world, the Adults take advantage of their lives and use them for wrong doings. For instance, using them to sell drugs, use them for prostitution, for the sake of gaining money. Adults can inject terror and anxiety in the child's brain to avoid telling the police in its situation and can't get help.<br>
+<br>
+
+Discipline vs. Abuse<br>
+Discipline is an act to teach, behave and show children what are the rights and the wrong done by the child. Using of calm talking with minor actions. So in the end, the child will understand the situation without getting hurt physically and emotionally.<br>
+
+Effect: A Child who is well disciplined is Pampered and gain self-confidence. The child will have a positive way in life no matter what situation the child is in. The child can interact with other people easily.<br>
+
+Abuse however, is the contrary way. This is more the aggressive way of behaving a child. Using verbal words mixed with shouting and swearing that the child doesn't even understand, added by the slaps in any part of the child's body then leaves a mark. This kind of way injures the child physically and emotionally.<br>
+
+Effect: The child will view the world as a terrible place. The abuse during their childhood will traumatize them from trying out new things.<br>
+<br>
+
+Discipline Strategies<br>
+The Parent should first consider thinking before acting. Parents needs to observe their surroundings first, and where they are and how is the child behaving. Think carefully of a punishment for the child to deal with without any injuries. The child has the right to complain of course but they have to abide by the parents' rules. And by the right age, the parent can trust the child in reflecting his/her own actions.</p>
+<br><br>
+
+
+</article>
+       </section>
+
+   <section id="comic">
+    	<h1> COMIC </h1>
+        <article><p>Summary and Chapter List
+This is a story about the lives of the children at different family situations. It shall illustrates how the rights of the children are protected, honored and abused, in narrative, and eventually in comics form. This is to be able to bring down the significance of the rights of children at different levels of consciousness, that can be easily relatable to the young minds, more interesting to the skeptics, but less offensive to the guilty ones.<br><br>
+The story will revolve around the families, interconnected by tragedies  and by that one focal person that has become the steering dynamics that has woven their lives together.<br><br>
+
+Chapter 1 [click here]<br>
+Chapter 2 [click here]<br>
+Chapter 3 [click here]<br>
+Chapter 4 [click here]<br>
+Chapter 5 [click here]<br>
+Chapter 6: Epilogue [click here]</p></article>
+       </section>  
+  
+ 	<section id="contact">
+        <article>
+<h1> CONTACT US </h1>		
+		
+<form id="form1" action="/" method="post">	
+		
+			<fieldset><legend>Contact form</legend>
+				<p class="first">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" size="30" />
+				</p>
+				<p>
+					<label for="email">Email</label>
+					<input type="text" name="email" id="email" size="30" />
+				</p>
+				<p>
+					<label for="web">Subject</label>
+					<input type="text" name="web" id="web" size="30" />
+				</p>			
+			</fieldset>
+			<fieldset>																			
+				<p>
+					<label for="message">Message</label>
+					<textarea name="message" id="message" cols="30" rows="10"></textarea>
+				</p>								
+			</fieldset>					
+
+			<button type="submit">Send</button> <button type="submit">Reset</button>	
+						
+		</form>	
+
+	
+
+
+</article>
+       </section>      
+   <footer> Copyright 2015 || For Educational purposes only </footer>   
+
+</div>
+</body>
+</html>
