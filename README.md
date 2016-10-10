@@ -1,2 +1,2 @@
-# Lock-On-Homes
+# Lock-On: Homes
 Thesis Website
