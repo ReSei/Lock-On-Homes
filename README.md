@@ -1,2 +1,2 @@
 # Lock-On: Homes
-Thesis Website
+Web Comic Thesis Website
